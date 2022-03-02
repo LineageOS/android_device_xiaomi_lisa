@@ -3,4 +3,5 @@
 bluetooth.device.default_name=Xiaomi 11 Lite 5G NE
 ro.product.odm.model=2109119DG
 ro.product.odm.name=lisa_global
+vendor.usb.product_string=Xiaomi 11 Lite 5G NE
 # end sku build properties
