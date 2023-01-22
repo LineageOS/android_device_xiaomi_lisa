@@ -778,21 +778,21 @@
 
     <path name="ultrasound-proximity">
         <ctl name="Mi_Ultrasound Enable" value="On" />
-        <ctl name="Ultrasound Mode" value="833" />
+        <!-- <ctl name="Ultrasound Mode" value="833" />
         <ctl name="Ultrasound Debug Mode" value="1" />
-        <ctl name="Ultrasound Log Level" value="7" />
+        <ctl name="Ultrasound Log Level" value="7" /> -->
     </path>
 
     <path name="ultrasound-proximity-output">
-    
+        
     </path>
 
     <path name="ultrasound-proximity-output handset">
-        
+
     </path>
 
     <path name="ultrasound-proximity-output speaker">
-        
+
     </path>
 
     <path name="ultrasound-proximity-output ultrasund-rx">
@@ -1003,6 +1003,8 @@
         <ctl name="ADC4 MUX" value="INP5" />
         <ctl name="TX3 MODE" value="ADC_LP" />
         <ctl name="ADC4_MIXER Switch" value="1" />
+        <ctl name="ADC1 Volume" value="16" />
+        <ctl name="ADC4 Volume" value="16" />
     </path>
 
     <!-- Dual MIC devices -->
@@ -1033,17 +1035,6 @@
         <path name="handset-dmic-endfire" />
     </path>
 
-    <path name="voice-rec-mic">
-        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="TX DEC0 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX0" value="SWR_MIC0" />
-        <ctl name="TX0 MODE" value="ADC_LP" />
-        <ctl name="ADC1 ChMap" value="SWRM_TX1_CH1" />
-        <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
-        <ctl name="TX_DEC0 Volume" value="92" />
-    </path>
- 
     <path name="speaker-mic">
         <path name="amic5" />
     </path>
