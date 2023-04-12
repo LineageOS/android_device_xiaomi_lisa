@@ -12,6 +12,9 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := lisa
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/lisa_QGKI.config
 
