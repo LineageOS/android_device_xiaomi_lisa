@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from lisa V14.0.2.0.TKOMIXM
+# All unpinned blobs below are extracted from lisa V14.0.3.0.TKOMIXM
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
