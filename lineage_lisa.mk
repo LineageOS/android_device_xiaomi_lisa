@@ -19,5 +19,5 @@ PRODUCT_NAME := lineage_lisa
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="lisa_global-user 14 UKQ1.231108.001 V816.0.10.0.UKOMIXM release-keys" \
-    BuildFingerprint=Xiaomi/lisa_global/lisa:14/UKQ1.231108.001/V816.0.10.0.UKOMIXM:user/release-keys
+    BuildDesc="lisa_global-user 14 UKQ1.240624.001 OS2.0.1.0.UKOMIXM release-keys" \
+    BuildFingerprint=Xiaomi/lisa_global/lisa:14/UKQ1.240624.001/OS2.0.1.0.UKOMIXM:user/release-keys
