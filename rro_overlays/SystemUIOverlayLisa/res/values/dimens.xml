@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2021 The LineageOS Project
-
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-
-<resources>
-    <dimen name="rounded_corner_content_padding">47px</dimen>
-
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Location on the screen of the center of the fingerprint sensor. For devices with under
      display fingerprint sensors, this directly corresponds to the fingerprint sensor's location.
      For devices with sensors on the back of the device, this corresponds to the location on the

@@ -3,9 +3,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <config>
+    <overlay package="android.overlay.lisa" mutable="false" enabled="true" />
     <overlay package="com.android.providers.settings.overlay.lisacn" mutable="false" enabled="true" />
     <overlay package="com.android.providers.settings.overlay.lisagl" mutable="false" enabled="true" />
     <overlay package="com.android.providers.settings.overlay.lisain" mutable="false" enabled="true" />
+    <overlay package="com.android.settings.overlay.lisa" mutable="false" enabled="true" />
+    <overlay package="com.android.systemui.overlay.lisa" mutable="false" enabled="true" />
     <overlay package="com.android.wifi.resources.overlay.lisacn" mutable="false" enabled="true" />
     <overlay package="com.android.wifi.resources.overlay.lisagl" mutable="false" enabled="true" />
     <overlay package="com.android.wifi.resources.overlay.lisain" mutable="false" enabled="true" />
