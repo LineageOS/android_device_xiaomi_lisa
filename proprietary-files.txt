@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from lisa OS2.0.1.0.UKOMIXM
+# All unpinned blobs below are extracted from lisa OS2.0.6.0.UKOMIXM
 
 # Current blobs with ELF checks disabled:
 # libvideoNS depends on intrinsic symbols which changed namespaces such as __aeabi_dcmpeq, __aeabi_dcmpge, which are difficult to shim
