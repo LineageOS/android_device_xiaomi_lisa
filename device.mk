@@ -14,12 +14,15 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Overlays-RRO
 PRODUCT_PACKAGES += \
-    lisaCNSettingsProviderOverlay \
-    lisaCNWifiOverlay \
-    lisaGLSettingsProviderOverlay \
-    lisaGLWifiOverlay \
-    lisaINSettingsProviderOverlay \
-    lisaINWifiOverlay
+    SettingsProviderOverlayLisaCN \
+    SettingsProviderOverlayLisaGL \
+    SettingsProviderOverlayLisaIN \
+    WifiOverlayLisaCN \
+    WifiOverlayLisaGL \
+    WifiOverlayLisaIN
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rro_overlays/config-odm.xml:$(TARGET_COPY_OUT_ODM)/overlay/config/config.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
