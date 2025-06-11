@@ -8,15 +8,16 @@
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-# Overlays-RRO
 PRODUCT_PACKAGES += \
+    ApertureOverlayLisa
+
+PRODUCT_PACKAGES += \
+    FrameworkOverlayLisa \
+    SettingsOverlayLisa \
     SettingsProviderOverlayLisaCN \
     SettingsProviderOverlayLisaGL \
     SettingsProviderOverlayLisaIN \
+    SystemUIOverlayLisa \
     WifiOverlayLisaCN \
     WifiOverlayLisaGL \
     WifiOverlayLisaIN
