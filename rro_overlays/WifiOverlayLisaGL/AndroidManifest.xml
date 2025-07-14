@@ -6,8 +6,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.wifi.resources.overlay.lisagl">
     <overlay
-        android:isStatic="true"
-        android:priority="850"
         android:requiredSystemPropertyName="ro.boot.hwc"
         android:requiredSystemPropertyValue="GL"
         android:targetName="WifiCustomization"

@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "WifiOverlayLisaCN",
-    vendor: true,
+    device_specific: true,
 }

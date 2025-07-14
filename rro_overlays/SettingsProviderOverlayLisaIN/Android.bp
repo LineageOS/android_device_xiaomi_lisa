@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "SettingsProviderOverlayLisaIN",
-    vendor: true,
+    device_specific: true,
 }
