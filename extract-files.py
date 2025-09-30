@@ -31,6 +31,9 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     ('vendor/etc/camera/pureShot_parameter.xml', 'vendor/etc/camera/pureView_parameter.xml'): blob_fixup()
         .regex_replace(r'=(\d+)>', r'="\1">'),
+    'vendor/lib/hw/audio.primary.lisa.so': blob_fixup()
+        .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
+        .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so'),
     'vendor/lib64/hw/camera.qcom.so': blob_fixup()
         .binary_regex_replace(b'\x73\x74\x5F\x6C\x69\x63\x65\x6E\x73\x65\x2E\x6C\x69\x63', b'\x63\x61\x6D\x65\x72\x61\x5F\x63\x6E\x66\x2E\x74\x78\x74')
         .add_needed('libprocessgroup_shim.so'),
