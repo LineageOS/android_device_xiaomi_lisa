@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf4eb704_1019bf3d",
+        "filename": "rro_overlays/SystemUIOverlayLisa/res/values/dimens.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 36466
+      },
+      "writtenOn": "2026-02-21T03:57:47Z",
+      "side": 0,
+      "message": "Intentional?",
+      "range": {
+        "startLine": 9,
+        "startChar": 4,
+        "endLine": 9,
+        "endChar": 61
+      },
+      "revId": "18759467d1693e1e8bc9ad22c9f3d8407e23889c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
