@@ -142,7 +142,7 @@
          Spline interpolation is used to determine the auto-brightness
          backlight values for lux levels between these control points.
          Must be overridden in platform specific overlays -->
-    <array name="config_autoBrightnessLevels">
+    <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
         <item>2</item>
         <item>4</item>
@@ -250,15 +250,15 @@
         <item>90000</item>
         <item>95000</item>
         <item>100000</item>
-    </array>
+    </integer-array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
          values in the config_screenBrightnessNits array.
          This array should be equal in size to config_screenBrightnessBacklight. -->
-    <array name="config_screenBrightnessBacklight">
+    <integer-array name="config_screenBrightnessBacklight">
         <item>1</item>
         <item>255</item>
-    </array>
+    </integer-array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
          values in the config_screenBrightnessBacklight array.  On OLED displays these  values
