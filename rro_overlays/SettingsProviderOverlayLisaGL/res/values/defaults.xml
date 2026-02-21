@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple" translatable="false">Xiaomi 11 Lite 5G NE</string>
 </resources>
